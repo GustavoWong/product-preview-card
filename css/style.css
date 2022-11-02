@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+overflow-y: hidden;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    display: flex;
+    height: 350px;
+    width: 500px;
+    border-radius: 9px;
+}
+
+
+
+img {
+    display: flex;
+    position: relative;
+    height: 100%;
+    flex-wrap: wrap-reverse;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.information{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 23px;
+}
+
+
+
+p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #5d7287;
+}
+
+h2{
+    font-family: 'Fraunces', serif;
+}
+
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.price h2 {
+    color: hsl(158, 36%, 37%);
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(158, 46%, 25%);
+}
+
+@media (max-width:600px) {
+
+
+    .container{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .card{
+        height: 500px;
+        width: 280px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        border-radius: 9px;
+    }
+
+    .information{
+        background-color: hsl(0, 0%, 100%);
+        position: relative;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    picture img{
+        height: 196px;
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+    }
+}
