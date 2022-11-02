@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html{
+    overflow-y: hidden;
+}
+
 body{
     background-color: hsl(30, 38%, 92%);
 }
@@ -14,6 +18,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 10px 10px 0px 10px;
+    padding: 20px 20px 0px 20px;
 }
 
 .card{
@@ -35,6 +41,7 @@ img {
 .information{
     display: flex;
     flex-direction: column !important;
+    flex-wrap: nowrap;
     padding: 13px;
     gap: 20px;
 }
@@ -79,7 +86,7 @@ button:hover{
     background-color: hsl(158, 46%, 25%);
 }
 
-@media (max-width:500px) {
+@media (max-width:580px) {
 
     .card{
         height: 500px;
