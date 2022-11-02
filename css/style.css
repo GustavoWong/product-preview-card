@@ -89,7 +89,7 @@ button:hover{
     background-color: hsl(158, 46%, 25%);
 }
 
-@media (max-width:600px) {
+@media (max-width:500px) {
 
 
     .container{
