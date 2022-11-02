@@ -20,8 +20,8 @@ body{
     background-color: hsl(0, 0%, 100%);
     position: absolute;
     display: flex;
-    height: 350px;
-    width: 500px;
+    height: 360px;
+    width: 530px;
     border-radius: 9px;
 }
 
