@@ -39,11 +39,9 @@ img {
 
 .information{
     display: flex;
-    position: relative;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 15px;
-    gap: 23px;
+    flex-direction: column !important;
+    padding: 13px;
+    gap: 20px;
 }
 
 
